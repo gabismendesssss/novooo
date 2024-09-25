@@ -1,9 +1,43 @@
 body{
 background-image:linear-gradient(135deg,#9aafa9,#73807d);
-b
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:Helvetica, sans-serif;
 
+}
 
+.pag-inicial {
+background-color:rgb(207, 250, 236);
+padding: 80px;
 
+}
 
+div.pag-inicial{
+    border-radius: 50px;
+}
 
+.pag-inicial img{
+width: 250px;
+border-radius: 50%;
+
+}
+
+.botoes a {
+
+text-decoration: none;
+background-color: #73807d;
+font-size: 20px;
+color:aquamarine;
+padding: 10px;
+border-radius: 10px;
+border-style: outset;
+}
+
+.botoes a {
+
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
